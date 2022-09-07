@@ -44,7 +44,7 @@ print("Completed")
 >そのため、気温と降水量のデータを間違えないよう注意してください。
 #### ①  [CSVに変換しよう～気温編～](https://nipponkoei1946.sharepoint.com/sites/msteams_49697a/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Fmsteams%5F49697a%2FShared%20Documents%2FGeneral%2F%E2%98%86%E5%80%8B%E4%BA%BA%E4%BD%9C%E6%A5%AD%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80%2F%E6%9D%BE%E6%9C%AC%2FPython%E9%96%A2%E9%80%A3%2F%E3%82%A2%E3%83%97%E3%83%AA&viewid=9244e75a%2D67a6%2D495c%2D8f32%2D811ab6eba68c)
 
-summary<font color="DarkTurquoise"></font>
+**SUMMARY**
 >・ファイルの保存場所を入力してEnter  
 >・DATファイルからグリッドの数（xとyの値）を確認し入力  
 
