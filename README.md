@@ -9,7 +9,7 @@
 **Step2 : DIASからデータをダウンロード**  
 [DIASデータダウンロード](http://d4pdf.diasjp.net/d4PDF.cgi?target=GCM-subset&lang=ja)から欲しいデータをダウンロード
 
-<span style="color: red; ">赤文字</span>
+**SUMMARY**
 >・アカウントを作成しデータをダウンロード  
 >・ダウンロードの際、選択する情報は以下の5つ  
     　　1.実験（モデル）  
@@ -21,7 +21,7 @@
 ### 2. Pythonを使ってデータを解凍しよう！ - `ダウンロードしたデータのCSV化`
 #### ・[データを解凍しよう](https://nipponkoei1946.sharepoint.com/sites/msteams_49697a/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Fmsteams%5F49697a%2FShared%20Documents%2FGeneral%2F%E2%98%86%E5%80%8B%E4%BA%BA%E4%BD%9C%E6%A5%AD%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80%2F%E6%9D%BE%E6%9C%AC%2FPython%E9%96%A2%E9%80%A3%2F%E3%82%A2%E3%83%97%E3%83%AA&viewid=9244e75a%2D67a6%2D495c%2D8f32%2D811ab6eba68c)
 DIASからダウンロードしたTARファイルをPythonを使って解凍します。  
-summary<font color="DarkTurquoise"></font>
+**SUMMARY**
 >・ファイルの保存場所を入力  
 >・ファイルの保存場所は「アドレスのテキストをコピー」から入手  
 
@@ -39,7 +39,7 @@ for path1 in path_list:
 print("Completed")
 ```
 #### ・CSVに変換しよう
-warning<font color="Red"></font>
+**WARNING**
 >気温と降水量ではデータの単位が異なるため同じコードでは解凍することができません。  
 >そのため、気温と降水量のデータを間違えないよう注意してください。
 #### ①  [CSVに変換しよう～気温編～](https://nipponkoei1946.sharepoint.com/sites/msteams_49697a/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Fmsteams%5F49697a%2FShared%20Documents%2FGeneral%2F%E2%98%86%E5%80%8B%E4%BA%BA%E4%BD%9C%E6%A5%AD%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80%2F%E6%9D%BE%E6%9C%AC%2FPython%E9%96%A2%E9%80%A3%2F%E3%82%A2%E3%83%97%E3%83%AA&viewid=9244e75a%2D67a6%2D495c%2D8f32%2D811ab6eba68c)
@@ -121,7 +121,7 @@ g.close()
 ```
 
 #### ② [CSVに変換しよう～降雨編～](https://nipponkoei1946.sharepoint.com/sites/msteams_49697a/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Fmsteams%5F49697a%2FShared%20Documents%2FGeneral%2F%E2%98%86%E5%80%8B%E4%BA%BA%E4%BD%9C%E6%A5%AD%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80%2F%E6%9D%BE%E6%9C%AC%2FPython%E9%96%A2%E9%80%A3%2F%E3%82%A2%E3%83%97%E3%83%AA&viewid=9244e75a%2D67a6%2D495c%2D8f32%2D811ab6eba68c)
-summary<font color="DarkTurquoise"></font>
+**SUMMARY**
 >・ファイルの保存場所を入力  
 >・DATファイルからグリッドの数（xとyの値）を確認し入力  
 ```python
@@ -196,7 +196,7 @@ g.close()
 ```
 
 
-warning<font color="Red"></font>
+**WARNING**
 >CSVファイルの名前は「モデル名_アンサンブル数_**日平均気温**」のような形にしてください！  
 >データ分析の際に使用するコードで、平均気温・最高気温・最低気温を参照して計算している部分があります。
 
@@ -204,7 +204,7 @@ warning<font color="Red"></font>
 ### 3. データ分析をしよう！ - `CSVからのデータ抽出、まとめ`
 #### ・[データ分析をしよう](https://nipponkoei1946.sharepoint.com/sites/msteams_49697a/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Fmsteams%5F49697a%2FShared%20Documents%2FGeneral%2F%E2%98%86%E5%80%8B%E4%BA%BA%E4%BD%9C%E6%A5%AD%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80%2F%E6%9D%BE%E6%9C%AC%2FPython%E9%96%A2%E9%80%A3%2F%E3%82%A2%E3%83%97%E3%83%AA&viewid=9244e75a%2D67a6%2D495c%2D8f32%2D811ab6eba68c)
 
-summary<font color="DarkTurquoise"></font>
+**SUMMARY**
 >・ファイルの保存場所を入力  
 >・プロジェクトサイト（lao or cam）を確認し入力  
 >・開始年と終了年をそれぞれ入力  
