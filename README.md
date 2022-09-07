@@ -9,7 +9,7 @@
 **Step2 : DIASからデータをダウンロード**  
 [DIASデータダウンロード](http://d4pdf.diasjp.net/d4PDF.cgi?target=GCM-subset&lang=ja)から欲しいデータをダウンロード
 
-summary<font color="DarkTurquoise"></font>
+<font color="DarkTurquoise">summary</font>
 >・アカウントを作成しデータをダウンロード  
 >・ダウンロードの際、選択する情報は以下の5つ  
     　　1.実験（モデル）  
